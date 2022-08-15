@@ -301,6 +301,7 @@ PRODUCT_PACKAGES += \
     libdatamod \
     liblastaboxmsg \
     libprofileparamstorage \
+    librecordalive \
     libstagefright_omx_vendor \
     libwvhidl \
     libaudioroute.exynos990 \
