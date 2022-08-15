@@ -336,6 +336,7 @@ PRODUCT_PACKAGES += \
     libnpuc_template \
     libril_sem \
     libsait_npu_compiler \
+    libsec-ril \
     libskeymaster4device \
     libvkmanager_vendor \
     vendor.samsung.hardware.audio@1.0 \
