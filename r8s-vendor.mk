@@ -359,6 +359,7 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0-service \
     gpsd \
     lhd \
+    macloader \
     rild \
     vendor.samsung.hardware.gnss@2.1-service \
     vendor.samsung_slsi.hardware.eden_runtime@1.0-service \
