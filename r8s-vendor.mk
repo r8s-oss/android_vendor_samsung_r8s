@@ -211,6 +211,7 @@ PRODUCT_PACKAGES += \
     lib_SoundAlive_3DPosition_ver202 \
     lib_SoundAlive_AlbumArt_ver105 \
     lib_SoundAlive_play_plus_ver400 \
+    lib_SoundBooster_ver1050 \
     libacryl.plugin.hdr.exynos990 \
     libacryl \
     libaudioparamupdate \
@@ -235,6 +236,7 @@ PRODUCT_PACKAGES += \
     libenn_dsp_fw_graph_parser \
     libenn_dsp_kernels_cpu \
     libepic_helper \
+    libepicoperator \
     libexynoscamera3 \
     libexynoscamera_bayergdc_plugin \
     libexynoscamera_fakefusion \
@@ -258,6 +260,7 @@ PRODUCT_PACKAGES += \
     libion_exynos \
     libmdf \
     libmpbase \
+    libprofileparamstorage \
     libqfp_sensortest \
     libsec_semRil \
     libsecaudiocoreutils \
@@ -319,7 +322,6 @@ PRODUCT_PACKAGES += \
     libaudioproxy \
     libdatamod \
     liblastaboxmsg \
-    libprofileparamstorage \
     librecordalive \
     libstagefright_omx_vendor \
     libwvhidl \

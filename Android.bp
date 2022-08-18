@@ -435,6 +435,26 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "lib_SoundBooster_ver1050",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/lib_SoundBooster_ver1050.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/lib_SoundBooster_ver1050.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libacryl.plugin.hdr.exynos990",
 	owner: "samsung",
 	strip: {
@@ -915,6 +935,26 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libepicoperator",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libepicoperator.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libepicoperator.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libexynoscamera3",
 	owner: "samsung",
 	strip: {
@@ -1366,6 +1406,26 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmpbase.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libprofileparamstorage",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libprofileparamstorage.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libprofileparamstorage.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -2575,23 +2635,6 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/liblastaboxmsg.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libprofileparamstorage",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libprofileparamstorage.so"],
 		},
 	},
 	compile_multilib: "32",
