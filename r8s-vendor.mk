@@ -322,6 +322,7 @@ PRODUCT_PACKAGES += \
     libaudioproxy \
     libdatamod \
     liblastaboxmsg \
+    liboemcrypto \
     librecordalive \
     libstagefright_omx_vendor \
     libwvhidl \
